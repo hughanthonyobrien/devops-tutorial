@@ -14,7 +14,7 @@ node {
          hobrien             - user name
          devops-tutorial     - repository name
          */
-        app = docker.build("hobrien/devops-tutorial")
+        app = docker.build("jenkins/devops-tutorial")
     }
 
     stage('Test image') {
